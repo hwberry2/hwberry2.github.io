@@ -69,17 +69,17 @@ author:
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hwberry2"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/william-berry-451381399"
 
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:bill@hwb2.com"
 
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/william-berry-451381399"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hwberry2"
 
     - label: "RSS"
       icon: "fas fa-fw fa-rss"
