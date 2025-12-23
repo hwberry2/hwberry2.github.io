@@ -63,6 +63,11 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hwb2.com"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/william-berry-451381399"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hwberry2"
