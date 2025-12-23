@@ -42,9 +42,6 @@ If you’d like to get in touch:
 - **LinkedIn** — primary contact channel  
   (Best for professional outreach and context)
 
-- **GitHub** — for project-related discussions  
-  Issues, discussions, or direct references to work here
-
 You can also reach me by email at:
 
 > **bill [at] hwb2 [dot] com**
