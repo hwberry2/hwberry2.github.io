@@ -73,10 +73,6 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/william-berry-451381399"
 
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:bill@hwb2.com"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hwberry2"
