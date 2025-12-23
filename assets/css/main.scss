@@ -3,8 +3,17 @@
 
 @import "minimal-mistakes";
 
-/* Prevent portfolio teaser images from being cropped */
-.archive__item-teaser img {
+/* Portfolio card teaser: disable fixed-height crop behavior */
+.archive__item-teaser {
   height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.archive__item-teaser img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
   object-fit: contain !important;
+  object-position: center !important;
 }
