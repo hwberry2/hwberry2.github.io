@@ -71,7 +71,7 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/william-berry-451381399"
+      url: "https://www.linkedin.com/in/william-berry-451381399"
 
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
