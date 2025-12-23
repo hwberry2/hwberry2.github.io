@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 ---
-## About Me
 
 I am an educator and technology professional with a background that bridges classroom instruction, instructional technology, and enterprise-scale implementation. Currently, I teach middle school mathematics while designing and supporting technology-enhanced instructional systems that emphasize data-informed decision-making, scalability, and meaningful classroom impact.
 
@@ -36,8 +35,6 @@ The portfolio is intentionally broad. Some projects are polished and complete; o
 - **AI Tools**  
   Custom GPTs, Gems, and workflow experiments focused on real-world augmentation rather than novelty.
 
----
-
 ## Contact
 
 If you’d like to get in touch:
@@ -53,8 +50,6 @@ You can also reach me by email at:
 > **bill [at] hwb2 [dot] com**
 
 (This format is intentional to reduce automated scraping.)
-
----
 
 ## Notes
 
