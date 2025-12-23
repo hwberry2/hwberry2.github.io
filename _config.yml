@@ -69,15 +69,21 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/hwberry2"
+
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:bill@hwb2.com"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/william-berry-451381399"
+
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss"
+      url: "/feed.xml"
 
 defaults:
   # _posts
