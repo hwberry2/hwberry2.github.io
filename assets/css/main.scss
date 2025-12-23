@@ -1,0 +1,10 @@
+---
+---
+
+@import "minimal-mistakes";
+
+/* Prevent portfolio teaser images from being cropped */
+.archive__item-teaser img {
+  height: auto !important;
+  object-fit: contain !important;
+}
