@@ -25,8 +25,6 @@ Much of this work sits at the intersection of:
 
 The portfolio is intentionally broad. Some projects are polished and complete; others are experiments, prototypes, or evolving references.
 
----
-
 ## What You’ll Find Here
 
 - **Code**  
