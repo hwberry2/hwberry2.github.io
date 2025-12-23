@@ -67,10 +67,12 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/william-berry-451381399"
+      target: _blank
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hwberry2"
+      target: _blank
 
 footer:
   links:
