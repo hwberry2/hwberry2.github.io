@@ -62,14 +62,14 @@
 
 /* ================================
    Project cards (grid listings)
-   Full-card clickable overlay + keep action links clickable
+   Full-card clickable overlay + keep Gem/Code/Demo links clickable
    ================================ */
 
 .archive__item--clickable {
   position: relative;
 }
 
-/* Full-card overlay link (Details surface) */
+/* The full-card overlay link (Details surface) */
 .archive__item--clickable .archive__item-link {
   position: absolute;
   inset: 0;
@@ -85,9 +85,27 @@
   border-radius: 0.5rem;
 }
 
-/* Ensure action buttons sit ABOVE the overlay so they can be clicked */
+/* Prevent default blue/underlined link styling inside clickable cards */
+.archive__item--clickable a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+  Critical behavior:
+  - Let clicks on normal card content pass through to the overlay link
+  - But allow action buttons/links (Gem/Code/Demo) to be clickable
+*/
+.archive__item--clickable > *:not(.archive__item-link) {
+  pointer-events: none;
+}
+
+/* Re-enable pointer events only for the action areas and their children */
 .archive__item--clickable .archive__item-actions,
-.archive__item--clickable .archive__item-cta {
+.archive__item--clickable .archive__item-actions * ,
+.archive__item--clickable .archive__item-cta,
+.archive__item--clickable .archive__item-cta * {
+  pointer-events: auto;
   position: relative;
   z-index: 2;
 }
