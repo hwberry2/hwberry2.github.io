@@ -23,9 +23,6 @@ github_username: hwberry2
 minimal_mistakes_skin: default
 search: true
 
-header:
-  nav: "main"
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
