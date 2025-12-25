@@ -16,7 +16,7 @@ nature_gallery:
   - url: /assets/images/photography/nature/01.jpeg
     image_path: /assets/images/photography/nature/01.jpeg
     alt: "Nature photograph 01"
-    
+
   - url: /assets/images/photography/nature/02.jpeg
     image_path: /assets/images/photography/nature/02.jpeg
     alt: "Nature photograph 02"
@@ -24,6 +24,10 @@ nature_gallery:
   - url: /assets/images/photography/nature/03.jpeg
     image_path: /assets/images/photography/nature/03.jpeg
     alt: "Nature photograph 03"
+
+gem_url:
+code_url:
+demo_url:
 ---
 
 ## Gallery

@@ -15,8 +15,9 @@ header:
   caption: "MT5 Forex.com Trading Bot"
 
 # Optional external links (project-card.html already supports these)
-code_url: ""
-demo_url: ""
+gem_url:
+code_url:
+demo_url:
 ---
 
 ## Overview
