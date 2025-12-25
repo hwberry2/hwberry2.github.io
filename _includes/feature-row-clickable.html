@@ -1,0 +1,29 @@
+{% assign feature_row = page[include.id] | default: page.feature_row %}
+{% if feature_row %}
+<div class="feature__wrapper">
+  {% for f in feature_row %}
+    <a class="feature__item feature__item--link"
+       href="{{ f.url | relative_url }}"
+       aria-label="{{ f.title | escape }}">
+
+      {% if f.image_path %}
+        <div class="archive__item-teaser">
+          <img src="{{ f.image_path | relative_url }}" alt="{{ f.alt | default: f.title | escape }}">
+        </div>
+      {% endif %}
+
+      {% if f.title %}
+        <h2 class="archive__item-title">{{ f.title }}</h2>
+      {% endif %}
+
+      {% if f.excerpt %}
+        <p class="archive__item-excerpt">{{ f.excerpt }}</p>
+      {% endif %}
+
+      {% if f.btn_label %}
+        <span class="btn {{ f.btn_class | default: 'btn--primary' }}">{{ f.btn_label }}</span>
+      {% endif %}
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
