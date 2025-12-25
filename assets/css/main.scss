@@ -3,26 +3,12 @@
 
 @import "minimal-mistakes";
 
-/* Portfolio card teaser: disable fixed-height crop behavior */
-.archive__item-teaser {
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;
-}
-
-.archive__item-teaser img {
-  width: 100% !important;
-  height: auto !important;
-  max-height: none !important;
-  object-fit: contain !important;
-  object-position: center !important;
-}
-
 /* ================================
-   Portfolio category tiles (AI / Code / Docs)
+   Portfolio category tiles (feature_row)
    ================================ */
 
 .feature__item {
+  text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -31,16 +17,12 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-.feature__item img {
-  border-radius: 8px;
-}
-
-/* ================================
-   Center text under portfolio category tiles
-   ================================ */
-
-.feature__item {
-  text-align: center;
+.feature__item .archive__item-teaser img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.5rem;
 }
 
 .feature__item .archive__item-title,
