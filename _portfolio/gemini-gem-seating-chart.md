@@ -19,27 +19,31 @@ toc: true
 toc_sticky: true
 ---
 
-<p style="text-align:left;">
-  <a class="btn btn--primary btn--large" href="{{ page.gem_url }}" target="_blank" rel="noopener">
-    Open the Seating Chart Generator Gem
-  </a>
+<div style="margin-bottom:1.5rem;">
+  <!-- button row -->
+  <p style="text-align:left;">
+    <a class="btn btn--primary btn--large" href="{{ page.gem_url }}" target="_blank" rel="noopener">
+      Open the Seating Chart Generator Gem
+    </a>
+  
+    {% if page.code_url %}
+      <a class="btn btn--large" href="{{ page.code_url }}" target="_blank" rel="noopener">Code</a>
+    {% endif %}
+  
+    {% if page.demo_url %}
+      <a class="btn btn--large" href="{{ page.demo_url }}" target="_blank" rel="noopener">Demo</a>
+    {% endif %}
+  </p>
 
-  {% if page.code_url %}
-    <a class="btn btn--large" href="{{ page.code_url }}" target="_blank" rel="noopener">Code</a>
-  {% endif %}
 
-  {% if page.demo_url %}
-    <a class="btn btn--large" href="{{ page.demo_url }}" target="_blank" rel="noopener">Demo</a>
-  {% endif %}
-</p>
-
-<div class="notice--primary">
-  <strong>At a glance</strong>
-  <ul>
-    <li><strong>Goal:</strong> Generate workable seating charts fast from constraints.</li>
-    <li><strong>Best for:</strong> New rosters, mid-quarter resets, and routine-driven seating.</li>
-    <li><strong>Output:</strong> Grid chart + optional numbered list.</li>
-  </ul>
+  <div class="notice--primary">
+    <strong>At a glance</strong>
+    <ul>
+      <li><strong>Goal:</strong> Generate workable seating charts fast from constraints.</li>
+      <li><strong>Best for:</strong> New rosters, mid-quarter resets, and routine-driven seating.</li>
+      <li><strong>Output:</strong> Grid chart + optional numbered list.</li>
+    </ul>
+  </div>
 </div>
 
 ## What it does
