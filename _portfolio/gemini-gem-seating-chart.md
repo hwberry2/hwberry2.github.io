@@ -41,7 +41,7 @@ gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sha
 code_url:
 demo_url:
 ---
-
+# Gemini Gem – Seating Chart Generator
 ## What it does
 This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
 
