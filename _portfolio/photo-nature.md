@@ -26,3 +26,7 @@ nature_gallery:
     image_path: /assets/images/photography/nature/04.jpg
     alt: "Nature photograph 04"
 ---
+
+## Gallery
+
+{% include gallery id="nature_gallery" %}
