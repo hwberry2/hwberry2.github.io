@@ -4,13 +4,6 @@ main:
 
   - title: "Portfolio"
     url: /portfolio/
-    children:
-      - title: "AI"
-        url: /portfolio/ai/
-      - title: "Code"
-        url: /portfolio/code/
-      - title: "Docs"
-        url: /portfolio/docs/
 
   - title: "About"
     url: /about/
