@@ -6,7 +6,8 @@ date: 2025-01-01
 portfolio_category: AI
 tags: [ai, gemini, education, classroom]
 
-classes: wide
+#classes: wide
+classes: full
 
 header:
   teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
