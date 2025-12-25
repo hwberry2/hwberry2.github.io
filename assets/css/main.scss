@@ -7,8 +7,14 @@
    Portfolio category tiles (feature_row)
    ================================ */
 
+/* Ensure tiles stretch evenly and align consistently */
+.feature__wrapper {
+  align-items: stretch;
+}
+
 .feature__item {
   text-align: center;
+  height: 100%;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -17,6 +23,7 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
+/* Standardize tile image presentation */
 .feature__item .archive__item-teaser img {
   width: 100%;
   height: 180px;
@@ -25,7 +32,17 @@
   border-radius: 0.5rem;
 }
 
+/* Help keep card heights visually consistent */
+.feature__item .archive__item-excerpt {
+  min-height: 3.5em;
+}
+
 .feature__item .archive__item-title,
 .feature__item .archive__item-excerpt {
   text-align: center;
+}
+
+/* Tighten spacing around horizontal rules (e.g., between tiles and All Projects) */
+.page__content hr {
+  margin: 1.5rem 0;
 }
