@@ -43,4 +43,4 @@ feature_row:
 
 A curated selection of digital assets including code, photography, documents, AI tools, experiments, and prototypes.
 
-{% include feature_row %}
+{% include feature-row-clickable.html %}
