@@ -7,3 +7,18 @@ main:
 
   - title: "About"
     url: /about/
+
+portfolio:
+  - title: "Portfolio"
+    children:
+      - title: "All Projects"
+        url: /portfolio/
+      - title: "AI"
+        url: /portfolio/#ai
+      - title: "Education"
+        url: /portfolio/#education
+
+  - title: "Projects"
+    children:
+      - title: "Seating Chart Generator"
+        url: /portfolio/gemini-gem-seating-chart/
