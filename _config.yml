@@ -23,12 +23,14 @@ github_username: hwberry2
 minimal_mistakes_skin: default
 search: true
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+sticky_sidebar: true
 
 author_profile:
   links_open_new_tab: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
   
 # Outputting
 permalink: /:categories/:title/
