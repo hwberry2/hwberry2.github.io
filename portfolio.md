@@ -16,7 +16,7 @@ feature_row:
 
   - image_path: /assets/images/portfolio/code-placeholder.png
     alt: "Code"
-    title: "Coding Experiments"
+    title: "Coding"
     excerpt: "Reusable utilities, automation, and modular tooling examples."
     url: /portfolio/code/
     btn_label: "View"
