@@ -19,12 +19,18 @@ toc: true
 toc_sticky: true
 ---
 
-<p>
-  <a class="btn btn--primary btn--large"
-     href="{{ page.gem_url }}"
-     target="_blank" rel="noopener">
+<p style="text-align:center;">
+  <a class="btn btn--primary btn--large" href="{{ page.gem_url }}" target="_blank" rel="noopener">
     Open the Seating Chart Generator Gem
   </a>
+
+  {% if page.code_url %}
+    <a class="btn btn--large" href="{{ page.code_url }}" target="_blank" rel="noopener">Code</a>
+  {% endif %}
+
+  {% if page.demo_url %}
+    <a class="btn btn--large" href="{{ page.demo_url }}" target="_blank" rel="noopener">Demo</a>
+  {% endif %}
 </p>
 
 ## What it does
