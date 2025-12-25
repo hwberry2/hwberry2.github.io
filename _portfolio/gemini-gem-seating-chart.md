@@ -41,15 +41,6 @@ gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sha
 code_url:
 demo_url:
 ---
-<div class="notice--primary">
-  <p><strong>Quick links:</strong></p>
-  <p>
-    <a class="btn btn--primary btn--large" href="{{ page.gem_url }}" target="_blank" rel="noopener">Open Gem</a>
-    {% if page.code_url %}<a class="btn btn--large" href="{{ page.code_url }}" target="_blank" rel="noopener">Code</a>{% endif %}
-    {% if page.demo_url %}<a class="btn btn--large" href="{{ page.demo_url }}" target="_blank" rel="noopener">Demo</a>{% endif %}
-  </p>
-</div>
-
 <div class="notice--info">
   <p><strong>At a glance</strong></p>
   <ul>
