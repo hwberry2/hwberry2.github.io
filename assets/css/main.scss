@@ -8,14 +8,17 @@
    Scoped via: classes: wide portfolio
    ================================ */
 
-/* Ensure tiles stretch evenly and align consistently */
+/* Ensure tiles stretch evenly and align consistently + add breathing room below */
 .portfolio .feature__wrapper {
   align-items: stretch;
+  margin-bottom: 1.5rem;
 }
 
+/* Tile behavior */
 .portfolio .feature__item {
   text-align: center;
   height: 100%;
+  cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
