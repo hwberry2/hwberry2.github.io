@@ -13,6 +13,7 @@ feature_row:
     url: /portfolio/ai/
     btn_label: "View"
     btn_class: "btn--primary"
+
   - image_path: /assets/images/portfolio/code-placeholder.png
     alt: "Code"
     title: "Coding Experiments"
@@ -20,6 +21,7 @@ feature_row:
     url: /portfolio/code/
     btn_label: "View"
     btn_class: "btn--primary"
+
   - image_path: /assets/images/portfolio/docs-placeholder.png
     alt: "Docs"
     title: "Training Docs"
@@ -27,8 +29,16 @@ feature_row:
     url: /portfolio/docs/
     btn_label: "View"
     btn_class: "btn--primary"
+
+  - image_path: /assets/images/portfolio/photo-placeholder.png
+    alt: "Photography"
+    title: "Photography"
+    excerpt: "Selected photography projects and visual studies."
+    url: /portfolio/photography/
+    btn_label: "View"
+    btn_class: "btn--primary"
 ---
 
-A curated selection of digital assets including code, documents, AI tools, experiments, and prototypes.
+A curated selection of digital assets including code, photography, documents, AI tools, experiments, and prototypes.
 
 {% include feature_row %}
