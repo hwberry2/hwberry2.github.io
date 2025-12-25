@@ -41,14 +41,6 @@ gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sha
 code_url:
 demo_url:
 ---
-<div class="notice--info">
-  <p><strong>At a glance</strong></p>
-  <ul>
-    <li><strong>Goal:</strong> Generate workable seating charts fast from constraints.</li>
-    <li><strong>Best for:</strong> New rosters, mid-quarter resets, and routine-driven seating.</li>
-    <li><strong>Output:</strong> Grid chart + optional numbered list.</li>
-  </ul>
-</div>
 
 ## What it does
 This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
