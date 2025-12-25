@@ -1,18 +1,24 @@
 ---
-title: "Code Sample: Modular Tooling"
-excerpt: "Reusable, well-structured code examples and utilities."
-header:
-  teaser: /assets/images/code-placeholder.png
-tags: [code, libraries, examples]
+title: Code
+permalink: /portfolio/code/
+layout: single
+classes: wide
+author_profile: false
 ---
 
-### Overview
-A collection of modular, production-quality code examples demonstrating clean structure, documentation, and extensibility.
+## Overview
+Reusable, well-structured code samples, utilities, and tooling projects.
 
-### Includes
-- Utility modules
-- Reference implementations
-- Annotated examples
+## Examples
+- Modular tooling
+- Automation scripts
+- Reusable libraries and helpers
 
-### Links
-- GitHub Repository (placeholder)
+## Projects
+
+{% assign items = site.portfolio | where: "portfolio_category", "Code" | sort: "date" | reverse %}
+<div class="grid__wrapper">
+{% for p in items %}
+  {% include project-card.html project=p %}
+{% endfor %}
+</div>
