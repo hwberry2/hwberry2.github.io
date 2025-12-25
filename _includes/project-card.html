@@ -1,0 +1,29 @@
+{% assign p = include.project %}
+
+<div class="grid__item one-third">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if p.header.teaser %}
+      <div class="archive__item-teaser">
+        <a href="{{ p.url | relative_url }}">
+          <img src="{{ p.header.teaser | relative_url }}" alt="">
+        </a>
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </h2>
+
+    {% if p.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ p.excerpt | markdownify | strip_html | truncate: 160 }}
+      </p>
+    {% endif %}
+
+    <p>
+      <a class="btn btn--primary" href="{{ p.url | relative_url }}">Details</a>
+      {% if p.link %}<a class="btn" href="{{ p.link }}" target="_blank" rel="noopener">Code</a>{% endif %}
+      {% if p.demo %}<a class="btn" href="{{ p.demo }}" target="_blank" rel="noopener">Demo</a>{% endif %}
+    </p>
+  </article>
+</div>
