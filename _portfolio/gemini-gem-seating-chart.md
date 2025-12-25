@@ -19,49 +19,62 @@ toc: true
 toc_sticky: true
 ---
 
-## What it does
-This Gemini Gem generates classroom seating charts from structured inputs and constraints, so you can produce a workable chart quickly and iterate when student dynamics change.
+{% include notice type="primary" %}
+**Quick link:** [Open the Seating Chart Generator Gem]({{ page.gem_url }}){: .btn .btn--primary .btn--large}
+{% endinclude %}
 
-## Open the Gem
-- [Launch the Seating Chart Generator Gem]({{ page.gem_url }})
+## What it does
+This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
 
 ## Best use cases
 - Start-of-term seating for new rosters
 - Mid-quarter resets after behavior or social dynamics shift
 - Designing seating to support specific instructional routines (partner talk, lab groups, etc.)
 
-## What to provide (inputs)
-Copy/paste your roster and include any constraints you want the Gem to respect.
+## Inputs
+Provide as much as you want—the Gem works with minimal inputs, but performs best with constraints.
 
-**Roster**
+### Roster
 - Student names (one per line)
 
-**Room / layout**
-- Rows × columns (or number of seats)
-- Any “blocked” seats (if applicable)
+### Room and layout
+- Rows × columns (or total seats)
+- Any blocked/unused seats (if applicable)
 
-**Constraints (optional, but where the Gem shines)**
+### Constraints
 - Keep-apart pairs (e.g., A not near B)
 - Keep-together groups (e.g., reading support group)
-- Front-row placements (vision, attention, accommodations)
+- Front-row requirements (vision, attention, accommodations)
 - “Teacher zone” proximity requirements
 - Balance constraints (mix of personalities, support needs, etc.)
 
-## What you get back (outputs)
-- A clear grid-style seating chart (by row/seat)
-- A numbered or labeled list version (if requested)
-- Optional alternate versions if you ask for multiple drafts
+## Outputs
+- A readable grid-style seating chart (row/seat)
+- A numbered list version (if requested)
+- Optional alternate charts if you ask for multiple drafts
 
 ## Recommended prompt pattern
-Use this format to get consistent results:
+Copy/paste and fill in:
 
-> **Layout:** 5 rows × 6 columns (30 seats)  
-> **Roster:** (paste names)  
-> **Keep apart:** (pairs)  
-> **Keep together:** (groups)  
-> **Front row:** (names)  
-> **Notes:** (anything else)  
-> **Output:** grid + numbered list
+```text
+Layout: 5 rows × 6 columns (30 seats)
+Roster:
+- Name 1
+- Name 2
+- Name 3
 
-## Notes
-This is part of a growing set of Gemini Gems focused on classroom workflow automation. As you add more Gems, keep the naming pattern: **“Gemini Gem – …”** so they group cleanly in your portfolio.
+Keep apart:
+- Name 1 / Name 2
+
+Keep together:
+- Name 3 / Name 4 / Name 5
+
+Front row:
+- Name 6
+- Name 7
+
+Notes:
+- Avoid pairing close friends.
+- Prefer quiet students near the front.
+
+Output: grid + numbered list
