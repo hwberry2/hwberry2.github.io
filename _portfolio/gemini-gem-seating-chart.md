@@ -6,7 +6,9 @@ portfolio_category: AI
 tags: [ai, gemini, education, classroom]
 header:
   teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
-link: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
+gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
+# code_url: https://github.com/hwberry2/<repo>
+# demo_url: https://<live-demo>
 ---
 
 ## Overview
