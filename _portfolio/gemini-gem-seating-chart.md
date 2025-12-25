@@ -27,6 +27,7 @@ related: false
 header:
   overlay_image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
   overlay_filter: 0.45
+  teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
   caption: "Gemini Gem – Seating Chart Generator"
   actions:
     - label: "Open Gem"
