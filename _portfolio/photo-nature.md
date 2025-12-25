@@ -13,14 +13,13 @@ header:
 
 # Gallery definition (used below)
 nature_gallery:
-  - url: /assets/images/photography/nature/01.jpg
-    image_path: /assets/images/photography/nature/01.jpeg
+  - image_path: /assets/images/photography/nature/01.jpeg
     alt: "Nature photograph 01"
-  - url: /assets/images/photography/nature/02.jpg
-    image_path: /assets/images/photography/nature/02.jpeg
+    
+  - image_path: /assets/images/photography/nature/02.jpeg
     alt: "Nature photograph 02"
-  - url: /assets/images/photography/nature/03.jpg
-    image_path: /assets/images/photography/nature/03.jpeg
+
+  - image_path: /assets/images/photography/nature/03.jpeg
     alt: "Nature photograph 03"
 ---
 
