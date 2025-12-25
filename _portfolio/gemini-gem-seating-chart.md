@@ -7,38 +7,41 @@ portfolio_category: AI
 tags: [ai, gemini, education, classroom]
 classes: wide
 
-# HERO IMAGE (matches the docs-style top image behavior for layout: single)
-header:
-  image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
-  teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
-  image_description: "Gemini Gem – Seating Chart Generator"
+# If your URL differs, set it explicitly (recommended)
+permalink: /portfolio/gemini-gem-seating-chart/
 
-# LEFT SIDEBAR NAV (like the docs screenshot)
+# Left docs-style sidebar
 sidebar:
   nav: "portfolio"
 
-# RIGHT “ON THIS PAGE” box
+# Right “On this page”
 toc: true
 toc_label: "On this page"
 toc_sticky: true
+
+# Optional docs polish
+breadcrumbs: true
+share: false
+related: false
+
+# DOCS-STYLE HERO (title over image + overlay)
+header:
+  overlay_image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
+  overlay_filter: 0.45
+  caption: "Gemini Gem – Seating Chart Generator"
+  actions:
+    - label: "Open Gem"
+      url: "https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing"
+    # Uncomment when you have links
+    # - label: "Code"
+    #   url: "https://github.com/..."
+    # - label: "Demo"
+    #   url: "https://..."
 
 gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
 code_url:
 demo_url:
 ---
-{% include notice type="primary" %}
-**Quick links:**
-[Open Gem]({{ page.gem_url }}){: .btn .btn--primary .btn--large}
-
-{% if page.code_url %}
-[Code]({{ page.code_url }}){: .btn .btn--large}
-{% endif %}
-
-{% if page.demo_url %}
-[Demo]({{ page.demo_url }}){: .btn .btn--large}
-{% endif %}
-{% endinclude %}
-
 {% include notice type="info" %}
 **At a glance**
 - **Goal:** Generate workable seating charts fast from constraints.
@@ -77,6 +80,7 @@ This Gemini Gem generates classroom seating charts from structured inputs and co
 
 ## Recommended prompt pattern
 
+```text
 Layout: 5 rows × 6 columns (30 seats)
 
 Roster:
