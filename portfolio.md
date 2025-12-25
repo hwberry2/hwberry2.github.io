@@ -33,8 +33,6 @@ A curated selection of digital assets including code, documents, AI tools, exper
 
 {% include feature_row %}
 
-<hr>
-
 <h2>All Projects</h2>
 
 {% assign items = site.portfolio | sort: "date" | reverse %}
