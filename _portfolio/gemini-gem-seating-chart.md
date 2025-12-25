@@ -19,7 +19,7 @@ toc_label: "On this page"
 toc_sticky: true
 
 # Optional docs polish
-breadcrumbs: true
+breadcrumbs: false
 share: false
 related: false
 
