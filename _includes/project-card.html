@@ -1,11 +1,12 @@
 {% assign p = include.project %}
 
 <div class="grid__item one-third">
-  <a class="archive__item archive__item--link"
-     href="{{ p.url | relative_url }}"
-     itemscope
-     itemtype="https://schema.org/CreativeWork"
-     aria-label="{{ p.title | escape }}">
+  <article class="archive__item archive__item--clickable" itemscope itemtype="https://schema.org/CreativeWork">
+    <!-- Full-card clickable overlay (Details) -->
+    <a class="archive__item-link"
+       href="{{ p.url | relative_url }}"
+       aria-label="{{ p.title | escape }}"
+       itemprop="url"></a>
 
     {% if p.header.teaser %}
       <div class="archive__item-teaser">
@@ -26,17 +27,17 @@
     <div class="archive__item-cta">
       <span class="btn btn--primary">Details</span>
 
-      {% if p.gem_url %}
-        <span class="btn">Gem</span>
+      {% if p.gem_url != blank %}
+        <a class="btn" href="{{ p.gem_url }}" target="_blank" rel="noopener">Gem</a>
       {% endif %}
 
-      {% if p.code_url %}
-        <span class="btn">Code</span>
+      {% if p.code_url != blank %}
+        <a class="btn" href="{{ p.code_url }}" target="_blank" rel="noopener">Code</a>
       {% endif %}
 
-      {% if p.demo_url %}
-        <span class="btn">Demo</span>
+      {% if p.demo_url != blank %}
+        <a class="btn" href="{{ p.demo_url }}" target="_blank" rel="noopener">Demo</a>
       {% endif %}
     </div>
-  </a>
+  </article>
 </div>
