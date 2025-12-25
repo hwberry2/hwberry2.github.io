@@ -20,9 +20,7 @@ toc: true
 toc_sticky: true
 ---
 
-{% include notice type="primary" %}
-**Quick link:** [Open the Seating Chart Generator Gem]({{ page.gem_url }}){: .btn .btn--primary .btn--large}
-{% endinclude %}
+{% include notice.html type="primary" text="**Quick link:** [Open the Seating Chart Generator Gem]({{ page.gem_url }}){: .btn .btn--primary .btn--large}" %}
 
 ## What it does
 This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
