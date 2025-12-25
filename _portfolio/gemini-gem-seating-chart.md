@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Gemini Gem – Seating Chart Generator"
 excerpt: "Generates classroom seating charts from constraints (class size, behavior dynamics, teacher preferences)."
 date: 2025-01-01
@@ -13,8 +14,6 @@ header:
 gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
 # code_url: https://github.com/hwberry2/<repo>
 # demo_url: https://<live-demo>
-
-layout: single
 
 classes: wide
 toc: true
