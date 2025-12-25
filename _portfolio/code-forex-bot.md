@@ -9,8 +9,8 @@ tags: [code, mql5, mt5, trading, forex]
 permalink: /portfolio/code/mt5-forex-bot/
 
 header:
-  teaser: /assets/images/portfolio/code-forex-bot-teaser.jpeg
-  overlay_image: /assets/images/portfolio/code-forex-bot-hero.jpeg
+  teaser: /assets/images/portfolio/code-forex-bot-teaser.png
+  overlay_image: /assets/images/portfolio/code-forex-bot-hero.png
   overlay_filter: 0.45
   caption: "MT5 Forex.com Trading Bot"
 
