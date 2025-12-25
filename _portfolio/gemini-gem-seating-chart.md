@@ -21,7 +21,7 @@ toc_sticky: true
 
 <div style="margin-bottom:1.5rem;">
   <!-- button row -->
-  <p style="text-align:left;">
+  <p style="text-align:left; margin-bottom: 0.75rem;">
     <a class="btn btn--primary btn--large" href="{{ page.gem_url }}" target="_blank" rel="noopener">
       Open the Seating Chart Generator Gem
     </a>
