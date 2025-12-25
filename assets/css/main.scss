@@ -34,3 +34,16 @@
 .feature__item img {
   border-radius: 8px;
 }
+
+/* ================================
+   Center text under portfolio category tiles
+   ================================ */
+
+.feature__item {
+  text-align: center;
+}
+
+.feature__item .archive__item-title,
+.feature__item .archive__item-excerpt {
+  text-align: center;
+}
