@@ -5,48 +5,46 @@ excerpt: "Generates classroom seating charts from constraints (class size, behav
 date: 2025-01-01
 portfolio_category: AI
 tags: [ai, gemini, education, classroom]
-
 classes: wide
 
+# HERO IMAGE (matches the docs-style top image behavior for layout: single)
 header:
+  image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
   teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
-  overlay_image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
-  overlay_filter: 0.45
+  image_description: "Gemini Gem – Seating Chart Generator"
+
+# LEFT SIDEBAR NAV (like the docs screenshot)
+sidebar:
+  nav: "portfolio"
+
+# RIGHT “ON THIS PAGE” box
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 
 gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
 code_url:
 demo_url:
-
-toc: true
-toc_sticky: true
 ---
+{% include notice type="primary" %}
+**Quick links:**
+[Open Gem]({{ page.gem_url }}){: .btn .btn--primary .btn--large}
 
-<div style="margin-bottom:1.5rem;">
-  <!-- button row -->
-  <p style="text-align:left; margin-bottom: 0.75rem;">
-    <a class="btn btn--primary btn--large" href="{{ page.gem_url }}" target="_blank" rel="noopener">
-      Open the Seating Chart Generator Gem
-    </a>
-  
-    {% if page.code_url %}
-      <a class="btn btn--large" href="{{ page.code_url }}" target="_blank" rel="noopener">Code</a>
-    {% endif %}
-  
-    {% if page.demo_url %}
-      <a class="btn btn--large" href="{{ page.demo_url }}" target="_blank" rel="noopener">Demo</a>
-    {% endif %}
-  </p>
+{% if page.code_url %}
+[Code]({{ page.code_url }}){: .btn .btn--large}
+{% endif %}
 
+{% if page.demo_url %}
+[Demo]({{ page.demo_url }}){: .btn .btn--large}
+{% endif %}
+{% endinclude %}
 
-  <div class="notice--primary">
-    <strong>At a glance</strong>
-    <ul>
-      <li><strong>Goal:</strong> Generate workable seating charts fast from constraints.</li>
-      <li><strong>Best for:</strong> New rosters, mid-quarter resets, and routine-driven seating.</li>
-      <li><strong>Output:</strong> Grid chart + optional numbered list.</li>
-    </ul>
-  </div>
-</div>
+{% include notice type="info" %}
+**At a glance**
+- **Goal:** Generate workable seating charts fast from constraints.
+- **Best for:** New rosters, mid-quarter resets, and routine-driven seating.
+- **Output:** Grid chart + optional numbered list.
+{% endinclude %}
 
 ## What it does
 This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
@@ -57,6 +55,7 @@ This Gemini Gem generates classroom seating charts from structured inputs and co
 - Designing seating to support specific instructional routines (partner talk, lab groups, etc.)
 
 ## Inputs
+
 ### Roster
 - Student names (one per line)
 
