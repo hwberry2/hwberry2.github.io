@@ -14,6 +14,8 @@ gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sha
 # code_url: https://github.com/hwberry2/<repo>
 # demo_url: https://<live-demo>
 
+layout: single
+
 classes: wide
 toc: true
 toc_sticky: true
