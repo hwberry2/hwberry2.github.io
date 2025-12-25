@@ -28,8 +28,8 @@ toc_sticky: true
 This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
 
 ## Best use cases
-- Start-of-term seating for new rosters
-- Mid-quarter resets after behavior or social dynamics shift
+- Start-of-term seating for new rosters  
+- Mid-quarter resets after behavior or social dynamics shift  
 - Designing seating to support specific instructional routines (partner talk, lab groups, etc.)
 
 ## Inputs
@@ -59,6 +59,7 @@ Copy/paste and fill in:
 
 ```text
 Layout: 5 rows × 6 columns (30 seats)
+
 Roster:
 - Name 1
 - Name 2
