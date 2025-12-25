@@ -12,6 +12,8 @@ header:
   overlay_filter: 0.45
 
 gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
+code_url:
+demo_url:
 
 toc: true
 toc_sticky: true
