@@ -29,16 +29,6 @@ feature_row:
     url: /portfolio/photography/
     btn_label: "View"
     btn_class: "btn--primary"
-
-  - image_path: /assets/images/portfolio/docs-placeholder.png
-    alt: "Docs"
-    title: "Training Docs"
-    excerpt: "Guides, documentation, and structured reference materials."
-    url: /portfolio/docs/
-    btn_label: "View"
-    btn_class: "btn--primary"
-
-
 ---
 
 A curated selection of digital assets including code, photography, documents, AI tools, experiments, and prototypes.
