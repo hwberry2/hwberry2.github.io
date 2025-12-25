@@ -1,20 +1,24 @@
 ---
-title: "Documentation Library"
-excerpt: "Structured technical documentation, guides, and reference material."
-header:
-  teaser: /assets/images/docs-placeholder.png
-tags: [docs, writing, reference]
+title: Docs
+permalink: /portfolio/docs/
+layout: single
+classes: wide
+author_profile: false
 ---
 
-### Overview
-A growing library of clear, structured documentation covering tools, workflows, and systems.
+## Overview
+Structured technical documentation, guides, references, and written artifacts.
 
-### Formats
-- Markdown
-- PDFs
-- Living documents
+## Examples
+- Technical guides
+- Architecture notes
+- Reference documentation
 
-### Use cases
-- Internal references
-- Developer onboarding
-- Instructional material
+## Projects
+
+{% assign items = site.portfolio | where: "portfolio_category", "Docs" | sort: "date" | reverse %}
+<div class="grid__wrapper">
+{% for p in items %}
+  {% include project-card.html project=p %}
+{% endfor %}
+</div>
