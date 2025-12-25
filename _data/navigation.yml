@@ -15,8 +15,10 @@ portfolio:
         url: /portfolio/
       - title: "AI"
         url: /portfolio/#ai
-      - title: "Education"
-        url: /portfolio/#education
+      - title: "Code"
+        url: /portfolio/#code
+      - title: "Docs"
+        url: /portfolio/#docs
 
   - title: "Projects"
     children:
