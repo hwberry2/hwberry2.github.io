@@ -2,7 +2,7 @@
 title: Portfolio
 permalink: /portfolio/
 layout: single
-classes: wide
+classes: wide portfolio
 author_profile: false
 
 feature_row:
