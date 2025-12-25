@@ -4,6 +4,8 @@ permalink: /portfolio/
 layout: single
 classes: wide portfolio
 author_profile: false
+sidebar:
+  nav: "portfolio"
 
 feature_row:
   - image_path: /assets/images/portfolio/ai-placeholder.png

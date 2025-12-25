@@ -42,37 +42,37 @@ gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sha
 code_url:
 demo_url:
 ---
-<h1>Gemini Gem – Seating Chart Generator</h1>
-## What it does
+<div class="page__title">Gemini Gem – Seating Chart Generator</div>
+### What it does
 This Gemini Gem generates classroom seating charts from structured inputs and constraints so you can produce a workable chart quickly and iterate when student dynamics change.
 
-## Best use cases
+### Best use cases
 - Start-of-term seating for new rosters
 - Mid-quarter resets after behavior or social dynamics shift
 - Designing seating to support specific instructional routines (partner talk, lab groups, etc.)
 
-## Inputs
+### Inputs
 
-### Roster
+#### Roster
 - Student names (one per line)
 
-### Room and layout
+#### Room and layout
 - Rows × columns (or total seats)
 - Any blocked/unused seats (if applicable)
 
-### Constraints
+#### Constraints
 - Keep-apart pairs (e.g., A not near B)
 - Keep-together groups (e.g., reading support group)
 - Front-row requirements (vision, attention, accommodations)
 - “Teacher zone” proximity requirements
 - Balance constraints (mix of personalities, support needs, etc.)
 
-## Outputs
+### Outputs
 - A readable grid-style seating chart (row/seat)
 - A numbered list version (if requested)
 - Optional alternate charts if you ask for multiple drafts
 
-## Recommended prompt pattern
+### Recommended prompt pattern
 Layout: 5 rows × 6 columns (30 seats)
 
 Roster:
