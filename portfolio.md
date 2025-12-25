@@ -4,55 +4,34 @@ permalink: /portfolio/
 layout: single
 classes: wide
 author_profile: false
+
+feature_row:
+  - image_path: /assets/images/portfolio/ai-placeholder.png
+    alt: "AI"
+    title: "AI Projects"
+    excerpt: "Custom GPTs, prompt-driven tools, and domain-specific assistants."
+    url: /portfolio/ai/
+    btn_label: "View"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/portfolio/code-placeholder.png
+    alt: "Code"
+    title: "Coding Experiments"
+    excerpt: "Reusable utilities, automation, and modular tooling examples."
+    url: /portfolio/code/
+    btn_label: "View"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/portfolio/docs-placeholder.png
+    alt: "Docs"
+    title: "Training Docs"
+    excerpt: "Guides, documentation, and structured reference materials."
+    url: /portfolio/docs/
+    btn_label: "View"
+    btn_class: "btn--primary"
 ---
 
 A curated selection of digital assets including code, documents, AI tools, experiments, and prototypes.
 
-<div class="feature__wrapper">
-
-  <div class="feature__item">
-    <div class="archive__item-teaser">
-      <a href="{{ '/portfolio/ai/' | relative_url }}">
-        <img src="{{ '/assets/images/portfolio/ai-placeholder.png' | relative_url }}" alt="AI">
-      </a>
-    </div>
-    <h2 class="archive__item-title">
-      <a href="{{ '/portfolio/ai/' | relative_url }}">AI Projects</a>
-    </h2>
-    <p class="archive__item-excerpt">
-      Custom GPTs, prompt-driven tools, and domain-specific assistants.
-    </p>
-  </div>
-
-  <div class="feature__item">
-    <div class="archive__item-teaser">
-      <a href="{{ '/portfolio/code/' | relative_url }}">
-        <img src="{{ '/assets/images/portfolio/code-placeholder.png' | relative_url }}" alt="Code">
-      </a>
-    </div>
-    <h2 class="archive__item-title">
-      <a href="{{ '/portfolio/code/' | relative_url }}">Coding Experiments</a>
-    </h2>
-    <p class="archive__item-excerpt">
-      Reusable utilities, automation, and modular tooling examples.
-    </p>
-  </div>
-
-  <div class="feature__item">
-    <div class="archive__item-teaser">
-      <a href="{{ '/portfolio/docs/' | relative_url }}">
-        <img src="{{ '/assets/images/portfolio/docs-placeholder.png' | relative_url }}" alt="Docs">
-      </a>
-    </div>
-    <h2 class="archive__item-title">
-      <a href="{{ '/portfolio/docs/' | relative_url }}">Training Docs</a>
-    </h2>
-    <p class="archive__item-excerpt">
-      Guides, documentation, and structured reference materials.
-    </p>
-  </div>
-
-</div>
+{% include feature_row %}
 
 <hr>
 
