@@ -72,7 +72,6 @@ This Gemini Gem generates classroom seating charts from structured inputs and co
 
 ## Recommended prompt pattern
 
-```text
 Layout: 5 rows × 6 columns (30 seats)
 
 Roster:
