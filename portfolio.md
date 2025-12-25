@@ -17,7 +17,7 @@ A curated selection of digital assets including code, documents, AI tools, exper
       </a>
     </div>
     <h2 class="archive__item-title">
-      <a href="{{ '/portfolio/ai/' | relative_url }}">AI</a>
+      <a href="{{ '/portfolio/ai/' | relative_url }}">AI Projects</a>
     </h2>
     <p class="archive__item-excerpt">
       Custom GPTs, prompt-driven tools, and domain-specific assistants.
@@ -31,7 +31,7 @@ A curated selection of digital assets including code, documents, AI tools, exper
       </a>
     </div>
     <h2 class="archive__item-title">
-      <a href="{{ '/portfolio/code/' | relative_url }}">Code</a>
+      <a href="{{ '/portfolio/code/' | relative_url }}">Coding Experiments</a>
     </h2>
     <p class="archive__item-excerpt">
       Reusable utilities, automation, and modular tooling examples.
@@ -45,7 +45,7 @@ A curated selection of digital assets including code, documents, AI tools, exper
       </a>
     </div>
     <h2 class="archive__item-title">
-      <a href="{{ '/portfolio/docs/' | relative_url }}">Docs</a>
+      <a href="{{ '/portfolio/docs/' | relative_url }}">Training Docs</a>
     </h2>
     <p class="archive__item-excerpt">
       Guides, documentation, and structured reference materials.
