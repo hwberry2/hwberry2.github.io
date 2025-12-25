@@ -1,17 +1,20 @@
 {% assign p = include.project %}
 
 <div class="grid__item one-third">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <a class="archive__item archive__item--link"
+     href="{{ p.url | relative_url }}"
+     itemscope
+     itemtype="https://schema.org/CreativeWork"
+     aria-label="{{ p.title | escape }}">
+
     {% if p.header.teaser %}
       <div class="archive__item-teaser">
-        <a href="{{ p.url | relative_url }}">
-          <img src="{{ p.header.teaser | relative_url }}" alt="">
-        </a>
+        <img src="{{ p.header.teaser | relative_url }}" alt="">
       </div>
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      {{ p.title }}
     </h2>
 
     {% if p.excerpt %}
@@ -20,20 +23,20 @@
       </p>
     {% endif %}
 
-    <p>
-      <a class="btn btn--primary" href="{{ p.url | relative_url }}">Details</a>
+    <div class="archive__item-cta">
+      <span class="btn btn--primary">Details</span>
 
       {% if p.gem_url %}
-        <a class="btn" href="{{ p.gem_url }}" target="_blank" rel="noopener">Gem</a>
+        <span class="btn">Gem</span>
       {% endif %}
 
       {% if p.code_url %}
-        <a class="btn" href="{{ p.code_url }}" target="_blank" rel="noopener">Code</a>
+        <span class="btn">Code</span>
       {% endif %}
 
       {% if p.demo_url %}
-        <a class="btn" href="{{ p.demo_url }}" target="_blank" rel="noopener">Demo</a>
+        <span class="btn">Demo</span>
       {% endif %}
-    </p>
-  </article>
+    </div>
+  </a>
 </div>
