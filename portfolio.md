@@ -56,7 +56,7 @@ A curated selection of digital assets including code, documents, AI tools, exper
 
 <hr>
 
-## All Projects
+<h2>All Projects</h2>
 
 {% assign items = site.portfolio | sort: "date" | reverse %}
 <div class="grid__wrapper">
