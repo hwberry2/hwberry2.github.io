@@ -20,7 +20,7 @@ demo_url:
 toc: true
 toc_sticky: true
 ---
-<div style="max-width: 900px; margin: 0 auto;">
+
 <div style="margin-bottom:1.5rem;">
   <!-- button row -->
   <p style="text-align:left; margin-bottom: 0.75rem;">
@@ -46,7 +46,6 @@ toc_sticky: true
       <li><strong>Output:</strong> Grid chart + optional numbered list.</li>
     </ul>
   </div>
-</div>
 </div>
 
 ## What it does
