@@ -32,12 +32,3 @@ feature_row:
 A curated selection of digital assets including code, documents, AI tools, experiments, and prototypes.
 
 {% include feature_row %}
-
-<h2>All Projects</h2>
-
-{% assign items = site.portfolio | sort: "date" | reverse %}
-<div class="grid__wrapper">
-{% for p in items %}
-  {% include project-card.html project=p %}
-{% endfor %}
-</div>
