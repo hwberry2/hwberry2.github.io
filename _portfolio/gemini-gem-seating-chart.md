@@ -7,9 +7,9 @@ portfolio_category: AI
 tags: [ai, gemini, education, classroom]
 
 header:
-  overlay_image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
-  overlay_filter: 0.25
   teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
+  overlay_image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
+  overlay_filter: 0.45
 
 gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
 
