@@ -5,7 +5,6 @@ excerpt: "Generates classroom seating charts from constraints (class size, behav
 date: 2025-01-01
 portfolio_category: AI
 tags: [ai, gemini, education, classroom]
-classes: wide
 
 # If your URL differs, set it explicitly (recommended)
 permalink: /portfolio/gemini-gem-seating-chart/
