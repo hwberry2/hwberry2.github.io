@@ -11,13 +11,15 @@ header:
   overlay_filter: 0.25
   teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
 
+gem_url: https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing
+
 toc: true
 toc_sticky: true
 ---
 
 <p>
   <a class="btn btn--primary btn--large"
-     href="https://gemini.google.com/gem/1xVSuAXLgEiXNQXdCRYwHse1MfAxjZSsd?usp=sharing"
+     href="{{ page.gem_url }}"
      target="_blank" rel="noopener">
     Open the Seating Chart Generator Gem
   </a>
