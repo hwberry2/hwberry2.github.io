@@ -5,7 +5,7 @@ date: 2025-01-01
 portfolio_category: AI
 tags: [ai, gemini, education, classroom]
 header:
-  teaser: /assets/images/portfolio/ai-placeholder.png
+  teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
 link: https://gemini.google.com/gems
 ---
 
