@@ -4,6 +4,8 @@ permalink: /portfolio/code/
 layout: single
 classes: wide
 author_profile: false
+sidebar:
+  nav: "portfolio"
 ---
 
 ## Overview

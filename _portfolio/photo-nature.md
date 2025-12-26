@@ -9,14 +9,14 @@ permalink: /portfolio/photography/nature/
 
 # Card image used on /portfolio/photography/
 header:
-  teaser: /assets/images/portfolio/photo-nature-teaser.jpeg
+  teaser: /assets/images/portfolio/projects/photo-nature/teaser.jpeg
 
 # Gallery definition (used below)
 nature_gallery:
   - url: /assets/images/photography/nature/01.jpeg
     image_path: /assets/images/photography/nature/01.jpeg
     alt: "Nature photograph 01"
-    
+
   - url: /assets/images/photography/nature/02.jpeg
     image_path: /assets/images/photography/nature/02.jpeg
     alt: "Nature photograph 02"
@@ -24,6 +24,10 @@ nature_gallery:
   - url: /assets/images/photography/nature/03.jpeg
     image_path: /assets/images/photography/nature/03.jpeg
     alt: "Nature photograph 03"
+
+gem_url:
+code_url:
+demo_url:
 ---
 
 ## Gallery

@@ -9,14 +9,15 @@ tags: [code, mql5, mt5, trading, forex]
 permalink: /portfolio/code/mt5-forex-bot/
 
 header:
-  teaser: /assets/images/portfolio/code-forex-bot-teaser.png
-  overlay_image: /assets/images/portfolio/code-forex-bot-hero.png
+  teaser: /assets/images/portfolio/projects/code-forex-bot/teaser.png
+  overlay_image: /assets/images/portfolio/projects/code-forex-bot/hero.png
   overlay_filter: 0.45
   caption: "MT5 Forex.com Trading Bot"
 
 # Optional external links (project-card.html already supports these)
-code_url: ""
-demo_url: ""
+gem_url:
+code_url:
+demo_url:
 ---
 
 ## Overview

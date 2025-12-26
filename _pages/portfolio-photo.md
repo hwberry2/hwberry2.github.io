@@ -4,6 +4,8 @@ permalink: /portfolio/photography/
 layout: single
 classes: wide
 author_profile: false
+sidebar:
+  nav: "portfolio"
 ---
 
 ## Overview

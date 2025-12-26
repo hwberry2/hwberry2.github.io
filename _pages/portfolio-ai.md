@@ -4,6 +4,8 @@ permalink: /portfolio/ai/
 layout: single
 classes: wide
 author_profile: false
+sidebar:
+  nav: "portfolio"
 ---
 
 ## Overview

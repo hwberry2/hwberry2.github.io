@@ -14,13 +14,17 @@ portfolio:
       - title: "All Projects"
         url: /portfolio/
       - title: "AI"
-        url: /portfolio/#ai
+        url: /portfolio/ai/
       - title: "Code"
-        url: /portfolio/#code
-      - title: "Docs"
-        url: /portfolio/#docs
+        url: /portfolio/code/
+      - title: "Photo"
+        url: /portfolio/photo/
 
   - title: "Projects"
     children:
       - title: "Seating Chart Generator"
         url: /portfolio/gemini-gem-seating-chart/
+      - title: "Forex Bot"
+        url: /portfolio/code-forex-bot/
+      - title: "Nature Photos"
+        url: /portfolio/photo-nature/
