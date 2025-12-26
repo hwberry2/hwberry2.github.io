@@ -13,16 +13,16 @@ header:
 
 # Gallery definition (used below)
 nature_gallery:
-  - url: /assets/images/photography/nature/01.jpeg
-    image_path: /assets/images/photography/nature/01.jpeg
+  - url: /assets/images/portfolio/projects/photo-nature/01.jpeg
+    image_path: /assets/images/portfolio/projects/photo-nature/01.jpeg
     alt: "Nature photograph 01"
 
-  - url: /assets/images/photography/nature/02.jpeg
-    image_path: /assets/images/photography/nature/02.jpeg
+  - url: /assets/images/portfolio/projects/photo-nature/02.jpeg
+    image_path: /assets/images/portfolio/projects/photo-nature/02.jpeg
     alt: "Nature photograph 02"
 
-  - url: /assets/images/photography/nature/03.jpeg
-    image_path: /assets/images/photography/nature/03.jpeg
+  - url: /assets/images/portfolio/projects/photo-nature/03.jpeg
+    image_path: /assets/images/portfolio/projects/photo-nature/03.jpeg
     alt: "Nature photograph 03"
 
 gem_url:
