@@ -25,9 +25,9 @@ related: false
 
 # DOCS-STYLE HERO (title over image + overlay)
 header:
-  overlay_image: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
+  overlay_image: /assets/images/portfolio/projects/gemini-gem-seating-chart/hero.png
   overlay_filter: 0.45
-  teaser: /assets/images/portfolio/gemini-gem-seating-chart-placeholder.png
+  teaser: /assets/images/portfolio/projects/gemini-gem-seating-chart/teaser.png
   caption: "Gemini Gem – Seating Chart Generator"
   actions:
     - label: "Open Gem"

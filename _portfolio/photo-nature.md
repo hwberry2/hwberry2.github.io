@@ -9,7 +9,7 @@ permalink: /portfolio/photography/nature/
 
 # Card image used on /portfolio/photography/
 header:
-  teaser: /assets/images/portfolio/photo-nature-teaser.jpeg
+  teaser: /assets/images/portfolio/projects/photo-nature/teaser.jpeg
 
 # Gallery definition (used below)
 nature_gallery:
