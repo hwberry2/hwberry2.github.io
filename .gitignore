@@ -1,4 +1,14 @@
-_site
-.sass-cache
-.jekyll-metadata
 Gemfile.lock
+
+# Ruby / Bundler
+.bundle/
+vendor/bundle/
+
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS / editor noise
+.DS_Store
