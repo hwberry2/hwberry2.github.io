@@ -7,8 +7,8 @@ portfolio_category: AI
 tags: [ai, openai, api, python, security]
 
 header:
-  teaser: /assets/images/portfolio/openai-api-integration/teaser.png
-  image: /assets/images/portfolio/openai-api-integration/teaser.png
+  teaser: /assets/images/portfolio/projects/openai-api-integration/teaser.png
+  image: /assets/images/portfolio/projects/openai-api-integration/teaser.png
   image_description: "OpenAI API Integration Demo"
 classes: wide
 ---
