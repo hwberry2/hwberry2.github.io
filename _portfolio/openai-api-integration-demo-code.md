@@ -6,13 +6,11 @@ date: 2025-12-29
 portfolio_category: Code
 tags: [code, python, api, openai]
 
-classes: wide
+# 👇 This is the key line
+link: /portfolio/openai-api-integration-demo/
 
 header:
   teaser: /assets/images/portfolio/projects/openai-api-integration/teaser.png
+
+classes: wide
 ---
-
-This project is also listed in the **AI** section.
-
-- **Project page (AI listing):** /portfolio/openai-api-integration-demo/
-- **View Code on GitHub:** https://github.com/hwberry2/open-ai-smoke-test
