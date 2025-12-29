@@ -4,7 +4,7 @@ title: "OpenAI API Integration – Python Smoke Test"
 excerpt: "Secure OpenAI API integration in Python with environment-based key management, a connectivity smoke test, and a minimal summarization example."
 date: 2025-12-29
 portfolio_category: AI
-tags: [ai, openai, api, python, security]
+tags: [ai, openai, api, python, security, code]
 
 # If your URL differs, set it explicitly (recommended)
 permalink: /portfolio/openai-api-integration-demo/
