@@ -11,6 +11,10 @@ header:
   image: /assets/images/portfolio/projects/openai-api-integration/teaser.png
   image_description: "OpenAI API Integration Demo"
 classes: wide
+
+gem_url:
+code_url: https://github.com/hwberry2/open-ai-smoke-test
+demo_url:
 ---
 
 ## Overview
