@@ -7,6 +7,9 @@ portfolio_category: Code
 tags: [code, python, api, openai]
 
 classes: wide
+
+header:
+  teaser: /assets/images/portfolio/projects/openai-api-integration/teaser.png
 ---
 
 This project is also listed in the **AI** section.
