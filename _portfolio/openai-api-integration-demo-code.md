@@ -12,4 +12,4 @@ classes: wide
 This project is also listed in the **AI** section.
 
 - **Project page (AI listing):** /portfolio/openai-api-integration-demo/
-- **View Code on GitHub:** <PUT_YOUR_GITHUB_REPO_URL_HERE>
+- **View Code on GitHub:** <https://github.com/hwberry2/open-ai-smoke-test>
