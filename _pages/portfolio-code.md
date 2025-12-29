@@ -18,7 +18,10 @@ Reusable utilities, automation, and small coding experiments.
 
 ## Projects
 
-{% assign items = site.portfolio | where: "portfolio_category", "Code" | sort: "date" | reverse %}
+{% assign items = site.portfolio
+  | where_exp: "p", "p.portfolio_category == 'Code' or p.tags contains 'code'"
+  | sort: "date"
+  | reverse %}
 <div class="grid__wrapper">
 {% for p in items %}
   {% include project-card.html project=p %}
