@@ -16,7 +16,7 @@ header:
 
 ## What It Is
 <p>
-  <a class="btn btn--primary btn--large" href="PASTE_YOUR_FORM_LINK_HERE" target="_blank" rel="noopener">
+  <a class="btn btn--primary btn--large" href="https://hwb2learning.com" target="_blank" rel="noopener">
     Get Early Access
   </a>
 </p>
