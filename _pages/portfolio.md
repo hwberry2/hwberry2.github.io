@@ -7,6 +7,17 @@ author_profile: false
 sidebar:
   nav: "portfolio"
 
+# NEW: featured product row (renders above the main categories)
+feature_row_featured:
+  - image_path: /assets/images/portfolio/placeholders/hwb2-learning-placeholder.png
+    alt: "hwb2 Learning"
+    title: "hwb2 Learning"
+    excerpt: "AI-augmented math tutoring platform in active development (v0 ingestion + feedback pipeline)."
+    url: /portfolio/hwb2-learning/
+    btn_label: "View Product"
+    btn_class: "btn--primary"
+
+# existing category tiles
 feature_row:
   - image_path: /assets/images/portfolio/placeholders/ai-placeholder.png
     alt: "AI"
@@ -32,6 +43,16 @@ feature_row:
     btn_label: "View"
     btn_class: "btn--primary"
 ---
+
+## Currently Building
+
+A live product I am actively building. The portfolio below contains supporting AI and code artifacts.
+
+{% include feature-row-clickable.html id="feature_row_featured" %}
+
+---
+
+## Portfolio
 
 A curated selection of digital assets including code, photography, documents, AI tools, experiments, and prototypes.
 
