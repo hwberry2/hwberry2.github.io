@@ -15,6 +15,11 @@ header:
 ---
 
 ## What It Is
+<p>
+  <a class="btn btn--primary btn--large" href="PASTE_YOUR_FORM_LINK_HERE" target="_blank" rel="noopener">
+    Get Early Access
+  </a>
+</p>
 
 **hwb2 Learning** is an AI-augmented math tutoring platform I am actively building.
 It automates intake, first-pass feedback, and progress tracking so that **human tutoring time is reserved for diagnosis, strategy, and explanation**.
