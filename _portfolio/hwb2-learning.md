@@ -9,7 +9,8 @@ sidebar:
 excerpt: >
   AI-augmented math tutoring that scales human instruction without replacing it.
 header:
-  overlay_image: /assets/images/hero.jpeg
+  image: /assets/images/portfolio/projects/hwb2-learning/hero.png
+  image_description: "hwb2 Learning"
   overlay_filter: 0.35
 ---
 
