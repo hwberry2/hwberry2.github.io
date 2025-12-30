@@ -5,6 +5,10 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
+  - title: "Startup"
+    url: https://hwb2learning.com
+    target: _blank
+
   - title: "About"
     url: /about/
 
