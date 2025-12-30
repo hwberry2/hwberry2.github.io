@@ -11,7 +11,6 @@ excerpt: >
 header:
   image: /assets/images/portfolio/projects/hwb2-learning/hero.png
   image_description: "hwb2 Learning"
-  overlay_filter: 0.35
 ---
 
 ## What It Is
