@@ -17,8 +17,6 @@ portfolio:
     children:
       - title: "Startup"
         url: https://hwb2learning.com
-      - title: "All Projects"
-        url: /portfolio/
       - title: "AI"
         url: /portfolio/ai/
       - title: "Code"
