@@ -11,7 +11,7 @@ sidebar:
 feature_row_featured:
   - image_path: /assets/images/portfolio/placeholders/hwb2-learning-placeholder.png
     alt: "hwb2 Learning"
-    title: title: 'hwb2 <span class="hero-pipe">&#124;</span> Learning'
+    title: "hwb2 Learning"
     excerpt: "AI-augmented math tutoring platform in active development (v0 ingestion + feedback pipeline)."
     url: /portfolio/hwb2-learning/
     btn_label: "Details"
