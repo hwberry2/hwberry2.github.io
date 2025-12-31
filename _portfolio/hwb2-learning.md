@@ -12,6 +12,11 @@ header:
   overlay_image: /assets/images/portfolio/projects/hwb2-learning/hero.png
   overlay_filter: 0.35
   caption: " "
+
+  # Optional external links (project-card.html already supports these)
+gem_url:
+code_url:
+demo_url: https://hwb2learning.com
 ---
 
 ## What It Is
