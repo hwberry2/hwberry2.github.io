@@ -14,7 +14,7 @@ feature_row_featured:
     title: "hwb2 Learning"
     excerpt: "AI-augmented math tutoring platform in active development (v0 ingestion + feedback pipeline)."
     url: /portfolio/hwb2-learning/
-    btn_label: "View Product"
+    btn_label: "Details"
     btn_class: "btn--primary"
 
 # existing category tiles
