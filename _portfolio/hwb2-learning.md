@@ -1,5 +1,5 @@
 ---
-title: "hwb2 Learning"
+title: 'hwb2 <span class="hero-pipe">&#124;</span> Learning'
 permalink: /portfolio/hwb2-learning/
 layout: single
 classes: wide
