@@ -118,3 +118,30 @@ nav.pagination {
   letter-spacing: 0;
   margin: 0 0.25em;
 }
+
+/* =========================================
+   Featured Startup Card: title replacement
+   Bulletproof CSS-only solution
+   ========================================= */
+
+.portfolio .feature__wrapper:first-of-type
+  .archive__item-title {
+  position: relative;
+  visibility: hidden; /* removes text without collapsing layout */
+}
+
+.portfolio .feature__wrapper:first-of-type
+  .archive__item-title::after {
+  content: "hwb2 | Learning";
+  visibility: visible;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;      /* match card title */
+  font-weight: inherit;
+  line-height: 1.2;
+  color: inherit;
+}
