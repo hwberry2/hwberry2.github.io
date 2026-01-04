@@ -48,12 +48,9 @@ page_js:
 ></openai-chatkit>
 
 <h2>Example Intake JSON (copy/paste)</h2>
-
 <p>Copy this JSON and paste it into the chat to see the agent output.</p>
 
-<div class="json-example">
-  <button type="button" class="json-copy" data-copy-json>Copy</button>
-  <textarea id="json-example-text" readonly rows="14">
+<textarea id="json-example-text" readonly rows="14" style="width:100%;max-width:900px;">
 {
   "form_json": {
     "timestamp": "2026-01-03T19:20:00Z",
@@ -68,5 +65,4 @@ page_js:
     "acknowledgement": "Yes"
   }
 }
-  </textarea>
-</div>
+</textarea>
