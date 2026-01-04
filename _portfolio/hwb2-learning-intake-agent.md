@@ -2,6 +2,12 @@
 title: hwb2 Learning Intake Agent
 layout: single
 permalink: /portfolio/hwb2-learning-intake-agent/
+portfolio_category: AI
+date: 2026-01-04
+excerpt: "Live ChatKit embed demo: paste an intake JSON payload and see the agent output."
+header:
+  teaser: /assets/images/teasers/hwb2-intake-agent.png
+classes: wide
 page_js:
   - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
   - /assets/js/chatkit-init.js
