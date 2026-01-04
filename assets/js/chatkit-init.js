@@ -1,6 +1,6 @@
 (() => {
   // Cloud Run base URL (no trailing slash)
-  const CHATKIT_BACKEND = "https://YOUR-CLOUD-RUN-URL";
+  const CHATKIT_BACKEND = "https://hwb2-chatkit-mint-2hg3rbagrq-wl.a.run.app";
 
   function getDeviceId() {
     const key = "hwb2_chatkit_device_id";

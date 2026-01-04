@@ -7,4 +7,9 @@ page_js:
   - /assets/js/chatkit-init.js
 ---
 
-<openai-chatkit id="my-chat" style="height: 650px; width: 100%; max-width: 420px;"></openai-chatkit>
+<div style="max-width: 460px;">
+  <openai-chatkit
+    id="hwb2-chat"
+    style="display:block;height:650px;width:100%;"
+  ></openai-chatkit>
+</div>
