@@ -4,10 +4,13 @@ layout: single
 permalink: /portfolio/hwb2-learning-intake-agent/
 portfolio_category: AI
 date: 2026-01-04
-excerpt: "Live ChatKit embed demo: paste an intake JSON payload and see the agent output."
+excerpt: "Paste an intake JSON payload and see the agent generate the correct routed response (ChatKit embed)."
 header:
   teaser: /assets/images/teasers/hwb2-intake-agent.png
-classes: wide
+# Optional buttons (only add if you want them)
+# demo_url: /portfolio/hwb2-learning-intake-agent/
+# code_url: https://github.com/<you>/<repo>
+# gem_url: https://<link-if-relevant>
 page_js:
   - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
   - /assets/js/chatkit-init.js
