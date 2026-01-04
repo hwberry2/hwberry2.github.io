@@ -5,6 +5,7 @@ permalink: /portfolio/hwb2-learning-intake-agent/
 page_js:
   - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
   - /assets/js/chatkit-init.js
+  - /assets/js/json-example.js
 ---
 <openai-chatkit
   id="hwb2-chat"
