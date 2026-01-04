@@ -6,10 +6,4 @@ page_js:
   - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
   - /assets/js/chatkit-init.js
 ---
-
-<div style="max-width: 460px;">
-  <openai-chatkit
-    id="hwb2-chat"
-    style="display:block;height:650px;width:100%;"
-  ></openai-chatkit>
-</div>
+<openai-chatkit id="hwb2-chat" style="display:block;height:650px;width:100%;max-width:460px;"></openai-chatkit>
