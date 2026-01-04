@@ -1,16 +1,42 @@
 ---
-title: hwb2 Learning Intake Agent
 layout: single
-permalink: /portfolio/hwb2-learning-intake-agent/
-portfolio_category: AI
+title: "hwb2 Learning Intake Agent"
+excerpt: "Paste an intake JSON payload and get a routed, production-style response via a live ChatKit embed."
 date: 2026-01-04
-excerpt: "Paste an intake JSON payload and see the agent generate the correct routed response (ChatKit embed)."
+portfolio_category: AI
+tags: [ai, openai, agents, chatkit, tutoring, intake, automation]
+
+permalink: /portfolio/hwb2-learning-intake-agent/
+
+# Left docs-style sidebar
+sidebar:
+  nav: "portfolio"
+
+# Right “On this page”
+toc: true
+toc_label: "On this page"
+toc_sticky: true
+
+# Optional docs polish
+breadcrumbs: false
+share: false
+related: false
+
+# DOCS-STYLE HERO (title over image + overlay)
 header:
-  teaser: /assets/images/teasers/hwb2-intake-agent.png
-# Optional buttons (only add if you want them)
-# demo_url: /portfolio/hwb2-learning-intake-agent/
-# code_url: https://github.com/<you>/<repo>
-# gem_url: https://<link-if-relevant>
+  overlay_image: /assets/images/portfolio/projects/hwb2-learning-intake-agent/hero.png
+  overlay_filter: 0.45
+  teaser: /assets/images/portfolio/projects/hwb2-learning-intake-agent/teaser.png
+  caption: "hwb2 Learning Intake Agent"
+  actions:
+    - label: "Open Intake Agent"
+      url: "/portfolio/hwb2-learning-intake-agent/"
+
+# Optional buttons used by your project-card include
+code_url:
+demo_url: /portfolio/hwb2-learning-intake-agent/
+
+# ChatKit scripts (page-only)
 page_js:
   - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
   - /assets/js/chatkit-init.js
