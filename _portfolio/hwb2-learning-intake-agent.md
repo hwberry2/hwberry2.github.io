@@ -6,12 +6,17 @@ page_js:
   - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
   - /assets/js/chatkit-init.js
 ---
+<openai-chatkit
+  id="hwb2-chat"
+  style="display:block;width:100%;height:750px;"
+></openai-chatkit>
+
 <h2>Example Intake JSON (copy/paste)</h2>
 
 <p>Copy this JSON and paste it into the chat to see the agent output.</p>
 
 <div class="json-example">
-  <button type="button" class="json-copy" onclick="copyJsonExample()">Copy</button>
+  <button type="button" class="json-copy" data-copy-json>Copy</button>
   <textarea id="json-example-text" readonly rows="14">
 {
   "form_json": {
@@ -29,16 +34,3 @@ page_js:
 }
   </textarea>
 </div>
-
-<script>
-  function copyJsonExample() {
-    const el = document.getElementById("json-example-text");
-    el.focus();
-    el.select();
-    document.execCommand("copy");
-  }
-</script>
-<openai-chatkit
-  id="hwb2-chat"
-  style="display:block;width:100%;height:750px;"
-></openai-chatkit>
