@@ -126,3 +126,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+
+head_scripts:
+  - https://cdn.platform.openai.com/deployments/chatkit/chatkit.js
+
+footer_scripts:
+  - /assets/js/chatkit-init.js
