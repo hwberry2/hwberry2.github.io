@@ -8,7 +8,7 @@ page_js:
 ---
 <openai-chatkit
   id="hwb2-chat"
-  style="display:block;width:100%;height:750px;"
+  style="display:block;width:100%;height:500px;"
 ></openai-chatkit>
 
 <h2>Example Intake JSON (copy/paste)</h2>
