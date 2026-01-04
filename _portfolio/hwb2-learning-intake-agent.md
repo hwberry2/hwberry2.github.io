@@ -40,5 +40,5 @@ page_js:
 </script>
 <openai-chatkit
   id="hwb2-chat"
-  style="display:block;width:100%"
+  style="display:block;width:100%;height:750px;"
 ></openai-chatkit>
