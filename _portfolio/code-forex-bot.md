@@ -38,6 +38,5 @@ MT5 Forex.com Trading Bot is an MQL5 Expert Advisor for MetaTrader 5 (Forex.com-
 - Key features: modular request/notification/logging, signal confirmation, etc.
 
 ## Code
-You can either:
-- paste key excerpts here, or
-- link out via `code_url`.
+Example Code:
+- link via `code_url`.
