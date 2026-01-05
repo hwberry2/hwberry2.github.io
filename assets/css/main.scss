@@ -179,19 +179,22 @@ nav.pagination {
 }
 
 /* ============================
-   Masthead brand: hwb2 | Creative (site-wide)
+   Masthead brand: hwb2 | Creative
+   CSS-only because site.title is plain text in masthead contexts
    ============================ */
 
 a.site-title {
   white-space: nowrap;
-  font-size: 0 !important;
+  font-size: 0 !important; /* hide original text */
   line-height: 1 !important;
 }
 
+/* Rebuild visible text */
 a.site-title::before {
   content: "hwb2";
   font-size: 1.25rem;
   font-weight: 700;
+  letter-spacing: 0;
   color: inherit;
 }
 
@@ -200,5 +203,6 @@ a.site-title::after {
   font-size: 1.25rem;
   font-weight: 400;
   opacity: 0.75;
+  letter-spacing: 0;
   color: inherit;
 }
