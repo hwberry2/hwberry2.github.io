@@ -21,10 +21,16 @@ demo_url:
 ---
 
 ## Overview
-(You can fill this in later.)
+MT5 Forex.com Trading Bot is an MQL5 Expert Advisor for MetaTrader 5 (Forex.com-compatible) designed to automate trade management using clean, modular architecture. It separates signal generation, trade execution, and logging/notifications so strategies can be iterated safely without rewriting the plumbing.
 
 ## What it does
-- (bullets later)
+- Runs as a MetaTrader 5 Expert Advisor (MQL5) built specifically to work with Forex.com’s MT5 environment (including netting-mode constraints).
+- Uses a modular design (signal → confirmation → execution → monitoring) to keep strategy logic and order-handling decoupled.
+- Supports indicator-driven entries/exits (e.g., MACD/RSI-style logic) with optional next-candle confirmation to reduce false triggers.
+- Includes risk and trade safeguards (spread checks, cooldowns, optional stop models/trailing logic depending on configuration).
+- Provides observability via structured logging (e.g., CSV/event logs) plus optional runtime debug output for faster iteration.
+- Sends actionable notifications on key events (signal detected, trade opened/closed, exits triggered), depending on configuration.
+- Designed for incremental strategy development: adjust rules and parameters without changing the execution layer.
 
 ## Implementation notes
 - Platform: MetaTrader 5 (MQL5)
