@@ -179,30 +179,26 @@ nav.pagination {
 }
 
 /* ============================
-   Masthead brand: hwb2 | Creative
-   Scoped to splash pages with classes: creative
+   Masthead brand: hwb2 | Creative (site-wide)
    ============================ */
 
-.layout--splash.creative a.site-title {
+a.site-title {
   white-space: nowrap;
-  font-size: 0 !important; /* hide original text */
+  font-size: 0 !important;
   line-height: 1 !important;
 }
 
-/* Rebuild visible text */
-.layout--splash.creative a.site-title::before {
+a.site-title::before {
   content: "hwb2";
   font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0;
   color: inherit;
 }
 
-.layout--splash.creative a.site-title::after {
+a.site-title::after {
   content: " \00A0|\00A0 Creative";
   font-size: 1.25rem;
   font-weight: 400;
   opacity: 0.75;
-  letter-spacing: 0;
   color: inherit;
 }
